@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="Segoe UI, Vazirmatn, Tahoma, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070c"/><stop offset="1" stop-color="#0a0f18"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff4fa3" stop-opacity=".9"/><stop offset="1" stop-color="#ff4fa3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#39ff88" stop-opacity=".8"/><stop offset="1" stop-color="#39ff88" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd21f" stop-opacity="0"/><stop offset=".5" stop-color="#ffd21f" stop-opacity=".8"/><stop offset="1" stop-color="#ffd21f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="gl2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="560" fill="url(#bg2)"/>
+
+  <!-- ===== left: LIGHT DANCE (multi-shape) ===== -->
+  <g>
+    <rect x="50" y="90" width="540" height="420" rx="20" fill="#0d121c" stroke="#233046"/>
+    <clipPath id="stage1"><rect x="51" y="91" width="538" height="418" rx="19"/></clipPath>
+    <g clip-path="url(#stage1)">
+      <!-- shape 1: orb -->
+      <circle cx="180" cy="230" r="110" fill="url(#orbA)" filter="url(#soft)"/>
+      <!-- shape 2: orb -->
+      <circle cx="470" cy="400" r="95" fill="url(#orbB)" filter="url(#soft)"/>
+      <!-- shape 3: neon ring -->
+      <circle cx="430" cy="200" r="70" fill="none" stroke="#ff7a18" stroke-width="3" opacity=".85" filter="url(#gl2)"/>
+      <circle cx="430" cy="200" r="70" fill="none" stroke="#ff7a18" stroke-width="10" opacity=".18"/>
+      <!-- shape 4: diamond -->
+      <rect x="252" y="360" width="96" height="96" rx="14" transform="rotate(45 300 408)" fill="none" stroke="#b44fff" stroke-width="3" opacity=".85" filter="url(#gl2)"/>
+      <!-- shape 5: sweeping beam -->
+      <rect x="60" y="310" width="420" height="3" fill="url(#beam)" filter="url(#gl2)"/>
+      <rect x="180" y="150" width="380" height="2" fill="url(#beam)" opacity=".6" transform="rotate(-12 370 151)" filter="url(#gl2)"/>
+    </g>
+    <text x="320" y="130" text-anchor="middle" fill="#fff" font-size="20" font-weight="700" filter="url(#gl2)">✨ رقص نور چند شکلی</text>
+    <text x="320" y="490" text-anchor="middle" fill="#8fa3bf" font-size="13">کره · حلقه · لوزی · پرتوی متحرک — ترکیب screen روی همه صفحات</text>
+  </g>
+
+  <!-- ===== right: LIVE CHART ===== -->
+  <g>
+    <rect x="620" y="90" width="540" height="420" rx="20" fill="#0d121c" stroke="#233046"/>
+    <text x="890" y="130" text-anchor="middle" fill="#fff" font-size="20" font-weight="700" filter="url(#gl2)">📊 نمودار زنده متحرک</text>
+
+    <!-- chart card -->
+    <rect x="660" y="152" width="460" height="240" rx="16" fill="#0a0e16" stroke="#2a3448"/>
+    <rect x="661" y="153" width="458" height="38" rx="15" fill="#121a28"/>
+    <text x="680" y="178" fill="#e9edf3" font-size="14" font-weight="600">📊 نمودار زنده</text>
+    <circle cx="1100" cy="172" r="9" fill="none" stroke="#5a6a85"/><path d="M1096 168 l8 8 M1104 168 l-8 8" stroke="#5a6a85" stroke-width="1.6"/>
+
+    <!-- grid -->
+    <g stroke="#ffffff" stroke-opacity=".08">
+      <line x1="676" y1="220" x2="1104" y2="220"/><line x1="676" y1="262" x2="1104" y2="262"/>
+      <line x1="676" y1="304" x2="1104" y2="304"/><line x1="676" y1="346" x2="1104" y2="346"/>
+    </g>
+    <!-- cpu line + area -->
+    <path d="M676,330 C720,300 750,318 790,286 C830,254 860,300 900,268 C940,236 970,272 1010,246 C1050,220 1080,254 1104,238 L1104,366 L676,366 Z" fill="#ff4fa3" fill-opacity=".22"/>
+    <path d="M676,330 C720,300 750,318 790,286 C830,254 860,300 900,268 C940,236 970,272 1010,246 C1050,220 1080,254 1104,238" fill="none" stroke="#ff4fa3" stroke-width="3" stroke-linecap="round" filter="url(#gl2)"/>
+    <!-- mem line -->
+    <path d="M676,346 C716,338 756,352 796,340 C836,328 876,344 916,334 C956,324 996,340 1036,330 C1070,322 1090,332 1104,328" fill="none" stroke="#b44fff" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- pulsing head dot -->
+    <circle cx="1104" cy="238" r="9" fill="#ff4fa3" fill-opacity=".3"/>
+    <circle cx="1104" cy="238" r="5" fill="#ff4fa3" filter="url(#gl2)"/>
+
+    <!-- legend -->
+    <circle cx="690" cy="416" r="5" fill="#ff4fa3"/><text x="702" y="421" fill="#c7d1e0" font-size="13">پردازنده</text>
+    <circle cx="800" cy="416" r="5" fill="#b44fff"/><text x="812" y="421" fill="#c7d1e0" font-size="13">حافظه</text>
+    <text x="900" y="421" fill="#7e8ea8" font-size="13">⇅ 1.2M  ↓ 4.8M</text>
+
+    <text x="890" y="466" text-anchor="middle" fill="#8fa3bf" font-size="13">داده زنده از /panel/api/server/status — هر ۴ ثانیه</text>
+    <text x="890" y="490" text-anchor="middle" fill="#8fa3bf" font-size="13">نقطه سر خط نبض می‌زند؛ خط‌ها با سایه نئونی رسم می‌شوند</text>
+  </g>
+
+  <text x="600" y="40" text-anchor="middle" fill="#fff" font-size="30" font-weight="700" filter="url(#gl2)">رقص نور + نمودار زنده — بدون تغییر تنظیمات</text>
+</svg>

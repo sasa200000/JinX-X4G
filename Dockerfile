@@ -37,7 +37,7 @@ RUN set -eux; \
     test -x /app/x-ui
 
 # 2) JinX files (everything sits next to this Dockerfile)
-COPY *.py init.sh nginx.conf.tpl sub.html jx-check.html lock.js /opt/jinx/
+COPY *.py init.sh nginx.conf.tpl sub.html jx-check.html lock.js jx-theme.js /opt/jinx/
 
 # 3) services: init -> x-ui, nginx, helper -> guardian (built here, nothing else to upload)
 RUN set -eux; \

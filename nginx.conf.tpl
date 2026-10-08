@@ -144,6 +144,7 @@ http {
         }
         location = /jx-qr { proxy_pass http://jx_help/qr$is_args$args; proxy_set_header Connection ""; expires 1h; }
         location = /__jx/lock.js { alias /opt/jinx/lock.js; default_type application/javascript; charset utf-8; expires 1h; }
+        location = /__jx/jx-theme.js { alias /opt/jinx/jx-theme.js; default_type application/javascript; charset utf-8; expires 1h; }
         location = /__jx_seen { proxy_pass http://jx_help/seen?h=$host; proxy_set_header Connection ""; }
 
         # ---------- panel ----------

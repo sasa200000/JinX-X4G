@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="Segoe UI, Vazirmatn, Tahoma, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e16"/><stop offset="1" stop-color="#11141f"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <!-- header -->
+  <text x="600" y="58" text-anchor="middle" fill="#fff" font-size="34" font-weight="700" filter="url(#glow)">JinX X4G — 5 تم نئون</text>
+  <text x="600" y="92" text-anchor="middle" fill="#9fb0c9" font-size="17">صورتی · زرد · سبز فسفری · سیاه · نارنجی — بدون دست زدن به تنظیمات پنل</text>
+
+  <!-- 5 mini panels -->
+  <g font-size="15">
+    <!-- PINK -->
+    <g transform="translate(60,130)">
+      <rect width="200" height="330" rx="18" fill="#160a11" stroke="#ff4fa3" stroke-opacity=".55"/>
+      <rect x="1" y="1" width="198" height="40" rx="17" fill="#24111e"/>
+      <circle cx="22" cy="21" r="6" fill="#ff4fa3"/><text x="38" y="26" fill="#ffd9ea" font-weight="600">پنل / صورتی</text>
+      <rect x="14" y="56" width="172" height="30" rx="8" fill="#7c2049"/><rect x="24" y="64" width="8" height="14" rx="2" fill="#fff"/><text x="40" y="76" fill="#fff">داشبورد</text>
+      <rect x="14" y="94" width="172" height="30" rx="8" fill="#331a2b"/><text x="24" y="114" fill="#e8b7cf">اینباندها</text>
+      <rect x="14" y="132" width="172" height="30" rx="8" fill="#331a2b"/><text x="24" y="152" fill="#e8b7cf">تنظیمات</text>
+      <rect x="14" y="176" width="172" height="70" rx="10" fill="#0f0509" stroke="#ff4fa3" stroke-opacity=".35"/>
+      <polyline points="22,232 46,214 70,226 94,196 118,208 142,186 166,200 178,192" fill="none" stroke="#ff4fa3" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <rect x="14" y="258" width="80" height="26" rx="13" fill="#ff4fa3"/><text x="54" y="276" text-anchor="middle" fill="#2a0716" font-weight="700">ذخیره</text>
+      <rect x="104" y="258" width="82" height="26" rx="13" fill="none" stroke="#ff4fa3"/><text x="145" y="276" text-anchor="middle" fill="#ff9dc8">انصراف</text>
+      <circle cx="176" cy="306" r="14" fill="#24111e" stroke="#ff4fa3"/><text x="176" y="311" text-anchor="middle" font-size="13">🎨</text>
+      <text x="100" y="312" text-anchor="middle" fill="#8b6b7c" font-size="11">#ff4fa3</text>
+    </g>
+    <!-- YELLOW -->
+    <g transform="translate(280,130)">
+      <rect width="200" height="330" rx="18" fill="#17130a" stroke="#ffd21f" stroke-opacity=".55"/>
+      <rect x="1" y="1" width="198" height="40" rx="17" fill="#262016"/>
+      <circle cx="22" cy="21" r="6" fill="#ffd21f"/><text x="38" y="26" fill="#ffedb0" font-weight="600">پنل / زرد</text>
+      <rect x="14" y="56" width="172" height="30" rx="8" fill="#7a6200"/><rect x="24" y="64" width="8" height="14" rx="2" fill="#120e00"/><text x="40" y="76" fill="#120e00">داشبورد</text>
+      <rect x="14" y="94" width="172" height="30" rx="8" fill="#362f21"/><text x="24" y="114" fill="#e9dfae">اینباندها</text>
+      <rect x="14" y="132" width="172" height="30" rx="8" fill="#362f21"/><text x="24" y="152" fill="#e9dfae">تنظیمات</text>
+      <rect x="14" y="176" width="172" height="70" rx="10" fill="#100c04" stroke="#ffd21f" stroke-opacity=".35"/>
+      <polyline points="22,230 46,220 70,228 94,200 118,214 142,190 166,204 178,194" fill="none" stroke="#ffd21f" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <rect x="14" y="258" width="80" height="26" rx="13" fill="#ffd21f"/><text x="54" y="276" text-anchor="middle" fill="#231b00" font-weight="700">ذخیره</text>
+      <rect x="104" y="258" width="82" height="26" rx="13" fill="none" stroke="#ffd21f"/><text x="145" y="276" text-anchor="middle" fill="#ffe98a">انصراف</text>
+      <circle cx="176" cy="306" r="14" fill="#262016" stroke="#ffd21f"/><text x="176" y="311" text-anchor="middle" font-size="13">🎨</text>
+      <text x="100" y="312" text-anchor="middle" fill="#8d7f4a" font-size="11">#ffd21f</text>
+    </g>
+    <!-- PHOSPHOR GREEN -->
+    <g transform="translate(500,130)">
+      <rect width="200" height="330" rx="18" fill="#07140d" stroke="#39ff88" stroke-opacity=".6"/>
+      <rect x="1" y="1" width="198" height="40" rx="17" fill="#10251a"/>
+      <circle cx="22" cy="21" r="6" fill="#39ff88"/><text x="38" y="26" fill="#c8ffe0" font-weight="600">پنل / سبز فسفری</text>
+      <rect x="14" y="56" width="172" height="30" rx="8" fill="#0b5c33"/><rect x="24" y="64" width="8" height="14" rx="2" fill="#eafff4"/><text x="40" y="76" fill="#eafff4">داشبورد</text>
+      <rect x="14" y="94" width="172" height="30" rx="8" fill="#173226"/><text x="24" y="114" fill="#a8e8c6">اینباندها</text>
+      <rect x="14" y="132" width="172" height="30" rx="8" fill="#173226"/><text x="24" y="152" fill="#a8e8c6">تنظیمات</text>
+      <rect x="14" y="176" width="172" height="70" rx="10" fill="#04100a" stroke="#39ff88" stroke-opacity=".4"/>
+      <polyline points="22,234 46,210 70,224 94,194 118,210 142,182 166,198 178,188" fill="none" stroke="#39ff88" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <rect x="14" y="258" width="80" height="26" rx="13" fill="#39ff88"/><text x="54" y="276" text-anchor="middle" fill="#052313" font-weight="700">ذخیره</text>
+      <rect x="104" y="258" width="82" height="26" rx="13" fill="none" stroke="#39ff88"/><text x="145" y="276" text-anchor="middle" fill="#8dffc4">انصراف</text>
+      <circle cx="176" cy="306" r="14" fill="#10251a" stroke="#39ff88"/><text x="176" y="311" text-anchor="middle" font-size="13">🎨</text>
+      <text x="100" y="312" text-anchor="middle" fill="#5f9b7c" font-size="11">#39ff88</text>
+    </g>
+    <!-- BLACK -->
+    <g transform="translate(720,130)">
+      <rect width="200" height="330" rx="18" fill="#0c0c0c" stroke="#ff3b30" stroke-opacity=".55"/>
+      <rect x="1" y="1" width="198" height="40" rx="17" fill="#191919"/>
+      <circle cx="22" cy="21" r="6" fill="#ff3b30"/><text x="38" y="26" fill="#ededed" font-weight="600">پنل / سیاه</text>
+      <rect x="14" y="56" width="172" height="30" rx="8" fill="#7a1a15"/><rect x="24" y="64" width="8" height="14" rx="2" fill="#fff"/><text x="40" y="76" fill="#fff">داشبورد</text>
+      <rect x="14" y="94" width="172" height="30" rx="8" fill="#191919"/><text x="24" y="114" fill="#c9c9c9">اینباندها</text>
+      <rect x="14" y="132" width="172" height="30" rx="8" fill="#191919"/><text x="24" y="152" fill="#c9c9c9">تنظیمات</text>
+      <rect x="14" y="176" width="172" height="70" rx="10" fill="#000" stroke="#ff3b30" stroke-opacity=".4"/>
+      <polyline points="22,232 46,216 70,226 94,198 118,212 142,188 166,202 178,192" fill="none" stroke="#ff3b30" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <rect x="14" y="258" width="80" height="26" rx="13" fill="#ff3b30"/><text x="54" y="276" text-anchor="middle" fill="#2b0503" font-weight="700">ذخیره</text>
+      <rect x="104" y="258" width="82" height="26" rx="13" fill="none" stroke="#ff3b30"/><text x="145" y="276" text-anchor="middle" fill="#ff9b96">انصراف</text>
+      <circle cx="176" cy="306" r="14" fill="#191919" stroke="#ff3b30"/><text x="176" y="311" text-anchor="middle" font-size="13">🎨</text>
+      <text x="100" y="312" text-anchor="middle" fill="#8a7674" font-size="11">#ff3b30</text>
+    </g>
+    <!-- ORANGE -->
+    <g transform="translate(940,130)">
+      <rect width="200" height="330" rx="18" fill="#170e04" stroke="#ff7a18" stroke-opacity=".55"/>
+      <rect x="1" y="1" width="198" height="40" rx="17" fill="#26190c"/>
+      <circle cx="22" cy="21" r="6" fill="#ff7a18"/><text x="38" y="26" fill="#ffe0c2" font-weight="600">پنل / نارنجی</text>
+      <rect x="14" y="56" width="172" height="30" rx="8" fill="#7a3a00"/><rect x="24" y="64" width="8" height="14" rx="2" fill="#fff"/><text x="40" y="76" fill="#fff">داشبورد</text>
+      <rect x="14" y="94" width="172" height="30" rx="8" fill="#352414"/><text x="24" y="114" fill="#e9cba9">اینباندها</text>
+      <rect x="14" y="132" width="172" height="30" rx="8" fill="#352414"/><text x="24" y="152" fill="#e9cba9">تنظیمات</text>
+      <rect x="14" y="176" width="172" height="70" rx="10" fill="#100901" stroke="#ff7a18" stroke-opacity=".35"/>
+      <polyline points="22,230 46,218 70,228 94,198 118,214 142,188 166,204 178,194" fill="none" stroke="#ff7a18" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <rect x="14" y="258" width="80" height="26" rx="13" fill="#ff7a18"/><text x="54" y="276" text-anchor="middle" fill="#261000" font-weight="700">ذخیره</text>
+      <rect x="104" y="258" width="82" height="26" rx="13" fill="none" stroke="#ff7a18"/><text x="145" y="276" text-anchor="middle" fill="#ffbb85">انصراف</text>
+      <circle cx="176" cy="306" r="14" fill="#26190c" stroke="#ff7a18"/><text x="176" y="311" text-anchor="middle" font-size="13">🎨</text>
+      <text x="100" y="312" text-anchor="middle" fill="#9b8061" font-size="11">#ff7a18</text>
+    </g>
+  </g>
+
+  <!-- footer strip -->
+  <rect x="60" y="496" width="1080" height="86" rx="16" fill="#151a26" stroke="#2a3346"/>
+  <text x="84" y="530" fill="#fff" font-size="16" font-weight="600">🎨 دکمه شناور</text>
+  <text x="84" y="556" fill="#9fb0c9" font-size="13">دکمه 🎨 گوشه راست-پایین → پالت ۵ تم + دو کلید رقص نور و نمودار زنده</text>
+  <text x="620" y="530" fill="#fff" font-size="16" font-weight="600">⚙️ تنظیمات پنل</text>
+  <text x="620" y="556" fill="#9fb0c9" font-size="13">هیچ تنظیمات/دیتابیسی تغییر نمی‌کند — همه‌چیز در localStorage مرورگر</text>
+</svg>

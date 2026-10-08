@@ -50,7 +50,7 @@ def _has_sub_filter():
 
 # lock add-on + cache-busting of panel scripts (an old broken copy in the browser cache can never be reused)
 SUBF = ("            sub_filter_once off;\n"
-        "            sub_filter '</body>' '<script src=\"/__jx/lock.js?v=5\" defer></script></body>';\n"
+        "            sub_filter '</body>' '<script src=\"/__jx/lock.js?v=5\" defer></script><script src=\"/__jx/jx-theme.js?v=1\" defer></script></body>';\n"
         "            sub_filter 'min.js\"></script>' 'min.js?jx=4\"></script>';\n"
         "            sub_filter 'min.css\">' 'min.css?jx=4\">';\n"
         "            sub_filter '.js?2.9.4\"' '.js?2.9.4&jx=4\"';\n"
